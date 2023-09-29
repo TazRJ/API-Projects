@@ -10,35 +10,26 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-img, iframe{
-  display: none;
-  width: 50%;
-  padding: 0 5%;
+img{
+  display: block;
+  margin: 0 auto;
+  height: 400px;
 }
 
-header, main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+ul {
+  
+  padding-left: 0;
 }
 
-main {
-  justify-content: space-between;
-  flex-direction: row;
+li {
+  text-align: center;
 }
 
+main{
+  text-align: center;
+  
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-button{
-  margin: 5% 0;
-}
-
-p{
-  padding: 0 5% 0 0;
-  width: 50%;
-}
-
