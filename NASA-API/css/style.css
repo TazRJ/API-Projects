@@ -36,3 +36,50 @@ main {
 /* ADDITIONAL STYLES
 /*******************************************/
 /* Reset some default styles */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+header input[type="date"] {
+  font-size: 16px;
+  padding: 7.5px;
+  border-radius: 4px;
+}
+
+header button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+header button:hover {
+  background-color: #0056b3;
+}
+
+main img, iframe {
+  max-width: 25%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+
+main p {
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 0 5% 0 0;
+  width: 75%;
+  
+}
