@@ -1,4 +1,4 @@
-# Javascript API-Projects - NASA, Chuck Norris and DnD APIs
+# Javascript API-Projects - NASA, Chuck Norris and DnD
 
 **Links to project:** 
 
